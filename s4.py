@@ -6,10 +6,10 @@ import datetime
 import os
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('xxxxxxxxxxx')
+bot = telebot.TeleBot('7180358484:AAEErQhLIg22mTzlAivNsqf9RXT500gPLl0')
 
 # Admin user IDs
-admin_id = ["xxxxxxxxxx"]
+admin_id = ["7209762563"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -351,8 +351,8 @@ def show_help(message):
 💥 /plan 
 💥 /myinfo
 
-𝘽𝙪𝙮 :- @S4_LUCHI
-𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡 :- @S4xOFFICIALxGRP
+𝘽𝙪𝙮 :- @Vip_Ddos_07
+𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡 :- Helix grp ,Priya
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -369,7 +369,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏ𝙨 ʙᴏᴛ, {user_name}! ᴛʜɪ𝙨 ɪ𝙨 ʜɪɢʜ ǫᴜᴀʟɪᴛʏ 𝙨ᴇʀᴠᴇʀ ʙᴀ𝙨ᴇᴅ ᴅᴅᴏ𝙨. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇ𝙨𝙨.
 🤖Try To Run This Command : /help 
-✅BUY :- @S4_LUCHI'''
+✅BUY :- @Vip_DDos_07'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
